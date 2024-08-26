@@ -1,0 +1,28 @@
+{
+  "atoms": {
+    "workflows.element_id": {
+      "uid": "workflows.element_id",
+      "logic": {
+        "workflows[id]": {
+          "nodes": {
+            "uid": "workflows.element_id.id",
+            "type": "workflows.element_id.type"
+          },
+          "connections": {
+            "uid": "workflows.element_id.actions[actionId].id",
+            "type": "workflows.element_id.actions[actionId].type",
+            "parameters": "workflows.element_id.actions[actionId].properties",
+            "workflows.element_id.actions[actionId].id": {
+              "success": {
+                "workflows.element_id.actions[actionId].id": {
+                  "order": "Int(workflows.element_id.actions[actionId])",
+                  "to": "workflows.element_id.actions[actionId].id"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

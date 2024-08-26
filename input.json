@@ -1,0 +1,76 @@
+{
+  "workflows": {
+    "cmNyJ": {
+      "properties": {
+        "element_id": "cmNuA"
+      },
+      "type": "ButtonClicked",
+      "id": "cmNyH",
+      "actions": {
+        "0": {
+          "properties": {
+            "value": "1d",
+            "element_id": "cmNth",
+            "custom_state": "custom.selected_"
+          },
+          "type": "SetCustomState",
+          "id": "cmNyN"
+        }
+      }
+    },
+    "cmNyU": {
+      "properties": {
+        "element_id": "cmNvI"
+      },
+      "type": "ButtonClicked",
+      "id": "cmNyO",
+      "actions": {
+        "0": {
+          "properties": {
+            "value": "1m",
+            "element_id": "cmNth",
+            "custom_state": "custom.selected_"
+          },
+          "type": "SetCustomState",
+          "id": "cmNyT"
+        }
+      }
+    },
+    "cmNyb": {
+      "properties": {
+        "element_id": "cmNuw"
+      },
+      "type": "ButtonClicked",
+      "id": "cmNyV",
+      "actions": {
+        "0": {
+          "properties": {
+            "value": "1w",
+            "element_id": "cmNth",
+            "custom_state": "custom.selected"
+          },
+          "type": "SetCustomState",
+          "id": "cmNya"
+        }
+      }
+    },
+    "cmNyl": {
+      "properties": {
+        "element_id": "cmNvC"
+      },
+      "type": "ButtonClicked",
+      "id": "cmNyf",
+      "actions": {
+        "0": {
+          "properties": {
+            "value": "2w",
+            "element_id": "cmNth",
+            "custom_state": "custom.selected_"
+          },
+          "type": "SetCustomState",
+          "id": "cmNyh"
+        }
+      }
+    }
+  }
+}
